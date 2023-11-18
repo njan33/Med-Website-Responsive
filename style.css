@@ -140,7 +140,7 @@ h2{
         left: -5vh;
         bottom: 13vh;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 430px) {
        
       
         .header{
@@ -149,69 +149,90 @@ h2{
         
         .header h2{
             font-size: 1.7rem;
-            left: -10vh;
-            top: 2vh;
+           left: -10vh;
+            top: -1vh;
         }
         .navbar{
-            right:21vh;
-            top:6vh;
+            right: 64vh;
+            top: 10vh;
            
             
         }
         .navbar p{
             cursor: pointer;
+            font-size: 10px;
         }
         .login{
-            left:95vh;
-            top:2vh;
+            left: 26vh;
+            top: 67px;
             cursor: pointer;
 
         }
         .btn{
-            left: 105vh;
-            top: -2vh;
-            cursor: pointer;
-            height: 5vh;
+            left: 34vh;
+            top: 39px;
+             cursor: pointer;
+             height: 3vh;
+              width: 81px;
+              font-size: 10px;
+}
 
-        }
+
+        
         .container{
             height: 193vh;
             width: 150vh;
         }
+       
         .container .first{
-            left: 42vh;
-            top: -9vh;
+            left: 0vh;
+            top: 5vh;
             cursor: pointer;
 
         }
         .container .second{
-            left: -23vh;
-             top: 47vh;
-             cursor: pointer;
+            left: -29vh;
+            top: 23vh;
+            cursor: pointer;
+            position: relative;
+            height: 272px;
         }
         .container .third{
-            left: 31vh;
-            bottom: -25vh;
+            left: -61vh;
+            bottom: -31vh;
             cursor: pointer;
+            width: 161px;
+            height: 151px;
         }
         .container p{
-            left: 26vh;
+            left: 59px;
+            top: 40px;
         }
         .container h1{
-            left: 38vh;
+            left: 9vh;
+            font-size: 30px;
+              top: 56px;
         }
         .container h4{
-            left:38vh;
+            left: 9vh;
+            top: 66px;
+             font-size: 14px;
         }
         .container .btn1{
-            top: -40vh;
-            left: 38vh;
-            cursor: pointer;
+            position: relative;
+            left: 9vh;
+            top: -163px;
+            font-size: 13px;
+            height: 27px;
+            width: 117px;
         }
         .container .btn2{
-            top: -40vh;
-            left: 39vh;
+            left: 84px;
             cursor: pointer;
+            top: -162px;
+            height: 28px;
+            width: 138px;
+            position: relative;
         }
 
     }
